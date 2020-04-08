@@ -34,9 +34,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class Classifier:
     def __init__(self):
-        self.filepath = '../data/text_classification.zip'
-        self.savepath = '../data/'
-        self.delectpath = '../data/text_classification'
+        self.filepath = 'text_classification.zip'
+        self.savepath = ''
+        self.delectpath = 'text_classification'
 
     def unzip(self):
         if os.path.exists(self.delectpath):
